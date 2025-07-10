@@ -8,20 +8,21 @@ body {
 }
 header {
     background-color: #ff6600;
-    padding: 10px 20px;
-    color: white;
+    padding: 20px 30px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 header img {
-    height: 70px;
-    margin-right: 20px;
+    height: 60px;
+    object-fit: contain;
 }
 nav a {
     color: white;
-    margin-right: 15px;
+    margin-left: 20px;
     text-decoration: none;
     font-weight: bold;
+    font-size: 16px;
 }
 main {
     padding: 20px;
